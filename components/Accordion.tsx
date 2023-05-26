@@ -1,5 +1,7 @@
 import { FC, ReactNode, useRef, useState } from "react";
 
+import styled from "styled-components";
+
 type TAccordion = {
   children: ReactNode;
   label: string;
